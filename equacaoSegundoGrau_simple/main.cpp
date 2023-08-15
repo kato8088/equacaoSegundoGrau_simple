@@ -17,11 +17,11 @@ int calc() {
 	cout << "Ax^2 +- Bx +- C = 0\natencao aos sinais!\n\n";
 	cout << "insira o valor de A: ";
 	cin >> A;
-	while (A <= 0)
+	while (A == 0)
 	{
 		cin.clear();
 		A = 1;
-		cout << "a variavel A nao pode ser menor ou igual a zero! \ntente novamente: ";
+		cout << "a variavel A nao pode ser igual a zero! \ntente novamente: ";
 		cin >> A;
 	}
 	cout << endl << "insira o valor de B: ";
